@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1 align="center">Pizza shop</h1>
+    <form id="myForm">
+        <label for="name">Ім'я:</label>
+        <input type="text" id="name" name="name"><br><br>
+            
+        <label>Оберіть піццу:</label><br>
+        <input type="radio" id="pizza1" name="pizza" value="Карбонара">
+        <label for="pizza1">Карбонара</label><br>
+        <input type="radio" id="pizza2" name="pizza" value="Пеперони">
+        <label for="pizza2">Пеперони</label><br>
+        <input type="radio" id="pizza3" name="pizza" value="Суперм`ясна">
+        <label for="pizza3">Суперм`ясна</label><br><br>
+            
+        <label for="sauce">Оберіть соус:</label>
+        <select id="sauce" name="Соус">
+            <option value="Томатний">Томатний</option>
+            <option value="Барбекю">Барбекю</option>
+            <option value="Часниковий">Часниковий</option>
+            <option value="Від шефа">Від шефа</option>
+        </select><br><br>
+            
+        <label for="toppings">Оберіть добавки:</label><br>
+        <input type="checkbox" id="topping1" name="Добавки" value="Гриби">
+        <label for="topping1">Гриби</label><br>
+        <input type="checkbox" id="topping2" name="Добавки" value="Оливки">
+        <label for="topping2">Оливки</label><br><br>
+        
+        <label for="message">Особливі побажання:</label><br>
+        <textarea id="message" name="Побажання" rows="4" cols="50"></textarea><br><br>
+        
+        <input type="submit" value="Отправить">
+    </form>
+    <div id="output"></div>
+</body>
+<script src="scripts.js"></script>
+</html>
