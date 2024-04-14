@@ -18,7 +18,7 @@ document.getElementById("myForm").addEventListener("submit", function(event) {
     });
     var outStr = "";
     for (var key in data) {
-      outStr += "<strong>" + key + ":</strong> " + data[key]  + " ";
+      outStr += "<strong>" + key + ":</strong> " + data[key]  + "<p>";
     }
 
     document.getElementById("output").innerHTML = outStr;
